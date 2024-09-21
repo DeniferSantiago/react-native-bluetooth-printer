@@ -75,7 +75,7 @@ public class Command {
 	public static byte[] FS_dot = new byte[] {FS, 46 };
 	
 	//汉字模式
-	public static byte[] FS_and = new byte[] {FS, '&' };
+	public static byte[] FS_and = new byte[] { FS, 0x00 };
 	
 	//设置汉字打印模式
 	public static byte[] FS_ExclamationMark = new byte[] {FS, '!', 0x00 };
